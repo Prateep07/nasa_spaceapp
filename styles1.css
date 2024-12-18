@@ -1,0 +1,100 @@
+/* CSS Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    max-height: 100px; /* Increase logo size */
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 0;
+}
+
+.nav ul li {
+    margin-left: 20px; /* Add space between links */
+}
+
+.nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.home-section {
+    padding: 60px 0;
+    text-align: center; /* Center the text and image */
+    background-color: #eaf3f9;
+}
+
+.home-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.home-section p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    line-height: 1.8;
+    color: #555;
+}
+
+.home-section h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.sdg-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 auto; /* Center the image */
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .social-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+footer .social-links li {
+    margin: 0 15px;
+}
+
+footer .social-links a {
+    color: white;
+    text-decoration: none;
+}
